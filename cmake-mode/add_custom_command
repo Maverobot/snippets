@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: add_custom_command
+# key: cuc
+# --
+# add_custom_command is not visible to make unless there are targets depending on it.
+add_custom_command(
+  OUTPUT ${1:path_to_output_file}
+  COMMAND ${2:command}
+  DEPENDS ${3:depended_targets}
+  COMMENT "${4:Describing this command}")
