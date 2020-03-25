@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: add_custom_target
+# key: cut
+# --
+add_custom_target(
+  ${2:Name} ${3:ALL}
+  COMMAND ${4:command}
+  DEPENDS ${5:depended_targets}
+  COMMENT "${6:Describing this target}")
