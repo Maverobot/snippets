@@ -17,6 +17,4 @@
 #+REVEAL_THEME: ${1:$$(yas-choose-value '("black" "white" "league" "beige" "sky" "night" "serif" "simple" "solarized" "blood" "moon"))}
 #+REVEAL_TRANS: ${2:$$(yas-choose-value '("none" "cube" "fade" "slide" "convex" "concave" "zoom"))}
 #+REVEAL_HLEVEL: 1
-#+REVEAL_HEAD_PREAMBLE: <meta name="${preamble_name}" content="${content}">
-#+REVEAL_POSTAMBLE: <p> ${postamble} </p>
 #+REVEAL_PLUGINS: (highlight markdown notes zoom)
