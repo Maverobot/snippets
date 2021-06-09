@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: org-roam-tags
+# key: org-roam-tags
+# --
+#+roam_tags: ${roam_tags}
