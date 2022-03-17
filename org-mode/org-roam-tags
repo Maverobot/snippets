@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: org-roam-tags
-# key: org-roam-tags
+# name: org-roam-filetags
+# key: org-roam-filetags
 # --
-#+roam_tags: ${roam_tags}
+#+filetags: :${filetags}:
