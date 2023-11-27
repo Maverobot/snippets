@@ -1,0 +1,5 @@
+# -*- mode: nxml-mode -*-
+# name: roslaunch-rosparam-full
+# key:  roslaunch-rosparam-full
+# --
+<rosparam command="${1:$$(yas-choose-value '("load" "dump" "delete"))}" file="${2:\$(find pkg-name)/path/foo.yaml}" param="${3:param-name}" ns="${4:namespace}" subst_value="${5:$$(yas-choose-value '("true" "false"))}"/>
